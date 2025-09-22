@@ -8,7 +8,7 @@ Now for your challenge! There are two files in /challenge:
 Use diff to find what's different between these files and get your flag!
 
 ### Solve
-**Flag:** `> pwn.college{4xBNBAHP1QF8q5xIGzz6O3BUcUL.01MwMDOxwiNzAzNzEzW}`
+**Flag:** `pwn.college{4xBNBAHP1QF8q5xIGzz6O3BUcUL.01MwMDOxwiNzAzNzEzW}`
 
 In this challenge, I used diff command and gave both files as arguments. The terminal printed ```25a26``` and returned the flag after that.
 
