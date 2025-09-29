@@ -14,7 +14,7 @@ Go get the flag!
 In this challenge, ```2>``` which is for redirecting stderr to the given file ```/challenge/the``` and used ```1>``` which is used for redirecting stdout to the file ```/challenge/planet``` and got the flag.
 
 ```bash
-/challenge/hack 2> (/challenge/the) 1> (/challenge/planet)
+/challenge/hack 2> >(/challenge/the) 1> >(/challenge/planet)
 ```
 
 ### New Learnings
