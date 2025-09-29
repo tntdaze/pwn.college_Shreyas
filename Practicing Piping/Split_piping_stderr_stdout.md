@@ -11,10 +11,10 @@ Go get the flag!
 ### Solve
 **Flag:** `pwn.college{Y6zg2VA2kF6Dgh8S4CZAo5YmoUt.QXxQDM2wiNzAzNzEzW}`
 
-In this challenge, ```2>``` which is for redirecting stderr to the given file ```/challenge/the``` and used ```1>``` which is used for redirecting stdout to the file ```/challenge/planet``` and got the flag.
+In this challenge, ```tee 2>``` which is for redirecting stderr to the given file ```/challenge/the``` and used ```tee 1>``` which is used for redirecting stdout to the file ```/challenge/planet``` and got the flag.
 
 ```bash
-/challenge/hack 2> >(/challenge/the) 1> >(/challenge/planet)
+ /challenge/hack | tee 2>(/challenge/the) | tee 1>(/challenge/planet)
 ```
 
 ### New Learnings
